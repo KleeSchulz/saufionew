@@ -1,0 +1,210 @@
+<resources>
+    <!--Allgemein -->
+    <string name="app_name">SaufIO</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="ok">OK</string>
+    <string name="abbrechen">Abbrechen</string>
+    <string name="verstanden">Verstanden</string>
+
+    <!-- Aufgabe.java -->
+    <string name="einzelsschluck">ein Schluck</string>
+    <string name="mehrzahlschluck">Schlücke</string>
+
+
+    <!--MainActivty-->
+    <string name="tp_name">Spielername</string>
+    <string name="zufall">Zufall </string>
+    <string name="hinzufuegen">Hinzufuegen </string>
+    <string name="start">Starten</string>
+    <string name="spielernamenstart">Aktuell sind noch keine Spieler hinzugefügt</string>
+    <string name="spielernamen">Es gibt folgende Spieler:  </string>
+    <string name="anzahlshots">Wie viele Schlücke auf einmal:</string>
+    <!-- Alerts -->
+    <!-- Kein nickanme eingetragen -->
+    <string name="alter_spielername_title">Spielername leer</string>
+    <string name="alter_spielername_message">Der Spielername ist leer</string>
+    <!-- zu wenig Spieler -->
+    <string name="alter_spieler_title">Zu wenig Spieler!</string>
+    <string name="alter_spieler_message">Es müssen mindestens 2 Spieler sein</string>
+    <!--Toast-->
+    <string name="t_add"> wurde hinzugefügt </string>
+    <string name="add_spieler_fehler"> konnte nicht hinzufegüt werden! Spielername exestiert bereits!</string>
+        <!-- Kategorien Alerts -->
+        <!-- Keine Kategorie ausweählt -->
+        <string name="alter_kategorie_title">Keine Kategorie</string>
+        <string name="alter_kategorie_message">Es wurde keine Kategorie ausgewählt</string>
+        <!-- Kategorie 1 Erklärung -->
+        <string name="alter_kategorie_title1">Regel: Ich hab noch nie</string>
+        <string name="alter_kategorie_message1">Derjenige der es getan hat muss trinken. Hat es in der Runde keiner getan, muss der Auserwählte trinken</string>
+
+
+    <!--Hauptspiel -->
+    <string name="naechsterspieler">-></string>
+    <string name="Kopf">Kopf</string>
+    <string name="Zahl">Zahl</string>
+    <string name="entscheidung">Kopf oder Zahl</string>
+    <string name="glueck_kopf">Glück gehabt!</string>
+    <string name="pech_kopf">Pech gehabt! Trinken!</string>
+    <string name="glueck_zahl">Glück gehabt!</string>
+    <string name="pech_zahl">Pech gehabt! Trinken!</string>
+    <string name="aufgabevorhanden">Aufgaben: </string>
+    <string name="wartenvid">Münze wird geworfen</string>
+
+    <!-- Alerts -->
+    <!-- Spiel beenden -->
+    <string name="alter_spielende_title">Spiel beenden?</string>
+    <string name="alter_spielende_message">Soll das Spiel wirklich beendet werden?</string>
+    <!-- Spieler löschen zu wenig -->
+    <string name="alter_spielerloeschen_title">Wenig Spieler</string>
+    <string name="alter_spieleerloeschen_message">Ihr müsst mindestens 2 Spieler sein</string>
+    <!-- Spieler löschen fragen -->
+    <string name="alter_spielerfrage">Welcher Spieler soll gelöscht werden?</string>
+    <!--Toast-->
+    <string name="t_loschen"> wurde gelöscht </string>
+    <!-- Spieler hinzufügen-->
+    <string name="spieleradd">+</string>
+    <string name="alter_spielerhinzufügen_title">Spielernamen hinzufügen</string>
+    <string name="alter_spielerhinzufügen_message">Bitte Spielernamen eintragen</string>
+    <!-- Spiel Fertig -->
+    <string name="keineaufgabe_title">Keine Aufgaben mehr</string>
+    <string name="keineaufgabe_message">Es gibt keine Aufgaben mehr! Startet eine neue Runde.</string>
+    <!--Endstatisik -->
+    <string name="alter_statistik_title">Spielstatistik</string>
+    <string name="alter_statistik_message_gesamt">Gesamtrunden: </string>
+    <string name="alter_statistik_message_kopf">Anzahl Kopf: </string>
+    <string name="alter_statistik_message_zahl">Anzahl Zahl: </string>
+    <string name="alter_statistik_message_runden">Anzahl Aufgaben: </string>
+    <string name="alter_statistik_message_durchlauf">Anzahl der Durchläufe: </string>
+
+
+    <!-- AC Credits-->
+    <string name="ueberuns">Über uns</string>
+    <string name="teile">Teile mit deinen Freunden</string>
+    <string name="contactus">Kontaktiere uns</string>
+    <string name="Bug_good">SaufIO Bug/Fehler</string>
+    <string name="share_subject">SaufIO das Besäufnis, Spiele es!</string>
+    <string name="share_Text">Hey, du willst saufen? Dann hol dir das beste Saufspiel im Playstore</string>
+    <string name="share_auswaehlen">Wähle aus</string>
+
+    <!--Ac Aufgaben -->
+    <string name="Aufgabeadd">Aufgabe hinzufuegen </string>
+    <string name="change">bearbeiten</string>
+    <string name="delete">löschen</string>
+    <string name="record">Datensatz</string>
+    <string name="Kategorie">Kategorie: </string>
+    <string name="alleaufgaben">Alle Aufgaben</string>
+
+    <!-- AC bearbeiten -->
+    <string name="update">Aufgabe updaten</string>
+    <string name="hint_aufgabe">Aufgabe eintragen</string>
+    <string name="Aufgabeadden">Aufgabe hinzufügen</string>
+    <string name="aufgabeleer">Aufgabe darf nicht leer sein</string>
+    <string name="aufgabeadded">Aufgabe wurde hinzugefügt</string>
+
+    <!-- Aufgaben -->
+    <!-- Kategorie1-->
+    <string name="kategroie1">Ich hab noch nie</string>
+    <string name="aufgabe1">Ich hab noch nie mehr als 42 Stunde ohne Schlaf verbracht. Trinke $ .</string>
+    <string name="aufgabe2">Ich hab noch nie meinen Kopf kahl geschoren. Trinke $ .</string>
+    <string name="aufgabe3">Ich hab noch nie den Wunsch gehabt, in eine andere Stadt zu ziehen. Trinke $ .</string>
+    <string name="aufgabe4">Ich hab noch nie versucht, das Passwort eines Anderen zu erraten. Trinke $ .</string>
+    <string name="aufgabe5">Ich hab noch nie etwas geklaut. Trinke $ .</string>
+    <string name="aufgabe6">Ich hab noch nie einen Strafzettel bekommen. Trinke $ .</string>
+    <string name="aufgabe7">Ich hab noch nie jemandem das Leben gerret. Trinke $ .</string>
+    <string name="aufgabe8">Ich hab noch nie gekifft. Trinke $ .</string>
+    <string name="aufgabe9">Ich hab noch nie härtere Drogen konsumiert. Trinke $ .</string>
+    <string name="aufgabe10">Ich hab noch nie mein Flugzeug verpasst. Trinke $ .</string>
+    <string name="aufgabe11">Ich hab noch nie so heftig gelacht, das ich pinkeln musste. Trinke $ .</string>
+    <string name="aufgabe12">Ich hab noch nie den Geburtstag eines Familienangehörigen verpasst. Trinke $ .</string>
+    <string name="aufgabe13">Ich hab noch nie im Vollrauch vergessen, wo ich wohne. Trinke $ .</string>
+    <string name="aufgabe14">Ich hab noch nie nach dem Feiern einen Blackout gehabt und erinnere mich teilweise an garnichts mehr. Trinke $ .</string>
+    <string name="aufgabe15">Ich hab noch nie so viel Angst bei einem Horrorfil gehabt, dass ich laut geschrien habe. Trinke $ .</string>
+    <string name="aufgabe16">Ich hab noch nie einem Autofahrer den Stinkefinger gezeigt. Trinke $ .</string>
+    <string name="aufgabe17">Ich hab noch nie Geld gefunden und es behalten. Trinke $ .</string>
+    <string name="aufgabe18">Ich hab noch nie eine Zigarre geraucht. Trinke $ .</string>
+    <string name="aufgabe19">Ich hab noch nie schlafgewandelt. Trinke $ .</string>
+    <string name="aufgabe20">Ich hab noch nie so viel getrunken das ich am nächsten Tag um 13 Uhr immernoch betrunken war. Trinke $ .</string>
+    <string name="aufgabe21">Ich hab noch nie den Notruf gewählt. Trinke $ .</string>
+    <string name="aufgabe22">Ich hab noch nie ein Auto gefahren mit dem ich nicht hätte fahren dürfen. Trinke $ .</string>
+    <string name="aufgabe23">Ich hab noch nie vor 13 Uhr so viel getrunken, dass ich sturz besoffen war. Trinke $ .</string>
+    <string name="aufgabe24">Ich hab noch nie etwas anderes als Klopapier benutzt. Trinke $ .</string>
+    <string name="aufgabe25">Ich hab noch nie einen Freund/Freundin meines Partners abgrundtief gehasst. Trinke $ .</string>
+    <string name="aufgabe26">Ich hab noch nie eine Zahnspange getragen . Trinke $ .</string>
+    <string name="aufgabe27">Ich hab noch nie einen besonderen Menschen verloren. Trinke $ .</string>
+    <string name="aufgabe28">Ich hab noch nie Kängurufleisch gegessen. Trinke $ .</string>
+    <string name="aufgabe29">Ich hab noch nie  mehr als eine Woche im Krankenhaus verbracht. Trinke $ .</string>
+    <string name="aufgabe30">Ich hab noch nie in einem Kinofilm geschlafen. Trinke $ .</string>
+    <string name="aufgabe31">Ich hab noch nie einen Wettbewerb gewonnen. Trinke $ .</string>
+    <string name="aufgabe32">Ich hab noch nie einen Rausschmiss in einen Club bekommen. Trinke $ .</string>
+    <string name="aufgabe33">Ich hab noch nie den Wunsch gehabt älter zu sein. Trinke $ .</string>
+    <string name="aufgabe34">Ich hab noch nie ein Fahrrad gestohlen. Trinke $ .</string>
+    <string name="aufgabe35">Ich hab noch nie mich selbst in den Schlaf geweint. Trinke $ .</string>
+    <string name="aufgabe36">Ich hab noch nie darüber nachgedacht, was nach dem Tod passieren wird. Trinke $ .</string>
+    <string name="aufgabe37">Ich hab noch nie ein Fahrzeug eines anderen beschädigt und bin dann einfach weitergefahren. Trinke $ .</string>
+    <string name="aufgabe38">Ich hab noch nie überlegt, mir ein Tattoo stechen zu lassen. Trinke $ .</string>
+    <string name="aufgabe39">Ich hab noch nie einen Tag im Pyjama verbracht. Trinke $ .</string>
+    <string name="aufgabe40">Ich hab noch nie Tierfutter probiert. Trinke $ .</string>
+    <string name="aufgabe41">Ich hab noch nie beim Speed-Dating mitgemacht . Trinke $ .</string>
+    <string name="aufgabe42">Ich hab noch nie jemandem etwas ekliges in den Briefkasten gesteckt. Trinke $ .</string>
+    <string name="aufgabe43">Ich hab noch nie einen Liebesbrief erhalten. Trinke $ .</string>
+    <string name="aufgabe44">Ich hab noch nie ein One-Night-Stand gehabt. Trinke $ .</string>
+    <string name="aufgabe45">Ich hab noch nie im Auto ganz laut die Musik aufgedreht und mitgesungen. Trinke $ .</string>
+    <string name="aufgabe46">Ich hab noch nie mit den Eltern über Verhütung gesprochen. Trinke $ .</string>
+    <string name="aufgabe47">Ich hab noch nie die E-Mails/Nachrichten meines Partners durchsucht. Trinke $ .</string>
+    <string name="aufgabe48">Ich hab noch nie ein Geschenk vergessen. Trinke $ .</string>
+    <string name="aufgabe49">Ich hab noch nie eine Mutprobe mitgemacht. Trinke $ .</string>
+    <string name="aufgabe50">Ich hab noch nie telefoniert/gechattet, während ich auf dem Klo saß. Trinke $ .</string>
+    <string name="aufgabe51">Ich hab noch nie per SMS/Whatsapp schluss gemacht. Trinke $ .</string>
+    <string name="aufgabe52">Ich hab noch nie Rosen geschenkt. Trinke $ .</string>
+    <string name="aufgabe53">Ich hab noch nie Rosen geschenkt bekommen. Trinke $ .</string>
+    <string name="aufgabe54">Ich hab noch nie jemand über eine Datingseite im Internet kennen gelernt. Trinke $ .</string>
+    <string name="aufgabe55">Ich hab noch nie Verhütungsmittel mitgeführt: "Nur für den Fall". Trinke $ .</string>
+    <string name="aufgabe56">Ich hab noch nie eine Sucht nach etwas entwickelt. Trinke $ .</string>
+    <string name="aufgabe57">Ich hab noch nie vorbei lachen geweint. Trinke $ .</string>
+    <string name="aufgabe58">Ich hab noch nie etwas wertvolles kaputt gemacht. Trinke $ .</string>
+    <string name="aufgabe59">Ich hab noch nie vergessen meine Pille zu nehmen. Trinke $ .</string>
+    <string name="aufgabe60">Ich hab noch nie ein Haustier gehabt. Trinke $ .</string>
+    <string name="aufgabe70">Ich hab noch nie meine Eltern belogen. Trinke $ .</string>
+    <string name="aufgabe71">Ich hab noch nie bei diesem Spiel als einziger getrunken. Trinke $ .</string>
+    <string name="aufgabe72">Ich hab noch nie Sex im Freien gehabt. Trinke $ .</string>
+    <string name="aufgabe73">Ich hab noch nie eine Person geküsst, die hier im Raum ist. Trinke $ .</string>
+    <string name="aufgabe74">Ich hab noch nie alleine betrunken. Trinke $ .</string>
+    <string name="aufgabe75">Ich hab noch nie Wahrheit oder Pflicht gespielt. Trinke $ .</string>
+    <string name="aufgabe76">Ich hab noch nie darauf gewartet, dass jemand anders den ersten Schritt macht. Trinke $ .</string>
+    <string name="aufgabe77">Ich hab noch nie einen Autounfall gehabt. Trinke $ .</string>
+    <string name="aufgabe78">Ich hab noch nie in einem Club mit einer Person rumgemacht. Trinke $ .</string>
+    <string name="aufgabe79">Ich hab noch nie verschlafen. Trinke $ .</string>
+    <string name="aufgabe80">Ich hab noch nie in der Dusch gesungen. Trinke $ .</string>
+    <string name="aufgabe81">Ich hab noch nie nachts nackt gebadet. Trinke $ .</string>
+    <string name="aufgabe82">Ich hab noch nie ins Meer geschissen. Trinke $ .</string>
+    <string name="aufgabe83">Ich hab noch nie1 jemanden nach seiner Nummer gefragt. Trinke $ .</string>
+    <string name="aufgabe84">Ich hab noch nie Handschellen beim Sex benutzt. Trinke $ .</string>
+    <string name="aufgabe85">Ich hab noch nie etwas aus dem Bauchnabel eines anderen getrunken. Trinke $ .</string>
+    <string name="aufgabe86">Ich hab noch nie Sex gehabt, bei dem ich nicht zum Orgasmus gekommen bin. Trinke $ .</string>
+    <string name="aufgabe87">Ich hab noch nie Pornohefte bei mir zuhause versteckt. Trinke $ .</string>
+    <string name="aufgabe88">Ich hab noch nie jemanden einen geblasen. Trinke $ .</string>
+    <string name="aufgabe89">Ich hab noch nie beim Sex beobachtet. Trinke $ .</string>
+    <string name="aufgabe90">Ich hab noch nie Hilfsmittel bei der Selbstbefriedigung eingesezt. Trinke $ .</string>
+    <string name="aufgabe91">Ich hab noch nie Sex an einem außergewöhnlichen Ort gehabt. Trinke $ .</string>
+    <string name="aufgabe92">Ich hab noch nie eine Sexpuppe in den Händen gehalanden gehalten. Trinke $ .</string>
+    <string name="aufgabe93">Ich hab noch nie versaute Sachen gesagt/geschrieben, um jemanden scharf zu machen. Trinke $ .</string>
+    <string name="aufgabe94">Ich hab noch nie Kondom mit Geschmack benutzt. Trinke $ .</string>
+    <string name="aufgabe95">Ich hab noch nie meinen Partner mit der Hand stimuliert. Trinke $ .</string>
+    <string name="aufgabe96">Ich hab noch nie Sexspielzeug gekauft. Trinke $ .</string>
+    <string name="aufgabe97">Ich hab noch nie nach dem Sex Biss- oder Kratzspuren gehabt. Trinke $ .</string>
+    <string name="aufgabe98">Ich hab noch nie Sperma geschluckt. Trinke $ .</string>
+    <string name="aufgabe99">Ich hab noch nie Sex im Hotel. Trinke $ .</string>
+    <string name="aufgabe61">Ich hab noch nie von BDSM geträumt. Trinke $ .</string>
+    <string name="aufgabe62">Ich hab noch nie Sex im Schwimmbad gehabt. Trinke $ .</string>
+    <string name="aufgabe63">Ich hab noch nie Peitsche und ähnliches beim Sex benutzt. Trinke $ .</string>
+    <string name="aufgabe64">Ich hab noch nie mehr als 3 Orgasmen innerhalbt von 24 Stunden gehabt. Trinke $ .</string>
+    <string name="aufgabe65">Ich hab noch nie darüber nachgedacht Rollenspiele zu machen. Trinke $ .</string>
+    <string name="aufgabe66">Ich hab noch nie einen Porno gegeuckt. Trinke $ .</string>
+    <string name="aufgabe67">Ich hab noch nie einen Dreier gehabt. Trinke $ .</string>
+    <string name="aufgabe68">Ich hab noch nie Sex während der Periode gehabt. Trinke $ .</string>
+    <string name="aufgabe69">Ich hab noch nie Analsex probiert. Trinke $ .</string>
+    <string name="aufgabe100">Ich hab noch nie eine erotische Massage gegeben oder erhalten. Trinke $ .</string>
+    <string name="aufgabe101">Ich hab noch nie Natursekt ausprobiert. Trinke $ .</string>
+    <string name="aufgabe102">Ich hab noch nie 3 Zeilen Programmiercode geschrieben. Trinke $ .</string>
+</resources>

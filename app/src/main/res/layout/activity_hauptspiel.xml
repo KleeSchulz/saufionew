@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Hauptspiel">
+
+    <ImageView
+        android:id="@+id/img_background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/img_background02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518"
+        app:srcCompat="@drawable/background02" />
+
+    <TextView
+        android:id="@+id/tv_spieleranzeige"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_aufgabenvorhanden" />
+
+    <Button
+        android:id="@+id/btn_zufall"
+        android:layout_width="150dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/button_main"
+        android:fontFamily="@font/pixel_art"
+        android:onClick="btn_zufall"
+        android:text="@string/naechsterspieler"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="64sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_zahl"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <com.alphamovie.lib.AlphaMovieView
+        android:id="@+id/video_player"
+        android:layout_width="423dp"
+        android:layout_height="254dp"
+        android:layout_marginTop="70dp"
+        android:visibility="invisible"
+        app:alphaColor="#00ff00"
+        app:layout_constraintBottom_toTopOf="@+id/tv_aufgabe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_spieleranzeige"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <VideoView
+        android:id="@+id/videoBB"
+        android:layout_width="416dp"
+        android:layout_height="257dp"
+        android:layout_marginTop="70dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/tv_aufgabe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_spieleranzeige"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/button_main"
+        android:fontFamily="@font/pixel_art"
+        android:gravity="center"
+        android:onClick="btn_spielerloeschen"
+        android:text="@string/spieleradd"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="72sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_zufall"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_kopf"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <TextView
+        android:id="@+id/tv_aufgabe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="TextView"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_aufgabenvorhanden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgBtn_share" />
+
+    <ImageButton
+        android:id="@+id/btn_ton"
+        android:layout_width="54dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_ton_share"
+        android:onClick="btn_tonsetzen"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pixel_lautsprecher_an"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
+
+    <ImageButton
+        android:id="@+id/btn_kopf"
+        android:layout_width="159dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/image_button_hauptspiel"
+        android:onClick="btnimg_kopf"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pixel_muenze"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/btn_zahl"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_spieleranzeige" />
+
+    <ImageButton
+        android:id="@+id/btn_zahl"
+        android:layout_width="159dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/image_button_hauptspiel"
+        android:onClick="btnimg_zahl"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pixel_zahl"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_spieleranzeige" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_share"
+        android:layout_width="54dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/button_ton_share"
+        android:onClick="btnimg_share"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pixel_teilen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/img_info"
+        android:layout_width="54dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+
+        android:background="@drawable/button_main"
+        android:onClick="btn_info"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pixel_info"
+        app:layout_constraintEnd_toStartOf="@+id/imgBtn_share"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toEndOf="@+id/imgbtn_rewardw"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_rewardw"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ads"
+        android:onClick="btn_werbung"
+        app:layout_constraintStart_toEndOf="@+id/btn_ton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_kopfzahl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_spieleranzeige" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
